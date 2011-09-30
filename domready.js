@@ -32,7 +32,8 @@
 var domReady = (function() {
 
     var w3c = !!document.addEventListener,
-        loaded = toplevel = false,
+        loaded = false,
+        toplevel = false,
         fns = [];
     
     if (w3c) {
